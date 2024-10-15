@@ -6,6 +6,7 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.util.function.Consumer;
 
+// Simple comment
 public class CustomLinkedList<T> implements Iterable<T> {
     private int size;
     private final int STARTING_POINT = 0;
