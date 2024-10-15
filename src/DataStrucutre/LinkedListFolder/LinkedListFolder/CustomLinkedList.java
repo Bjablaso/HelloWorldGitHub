@@ -1,6 +1,4 @@
-package DataStrucutre;
-
-import org.w3c.dom.Node;
+package DataStrucutre.LinkedListFolder.LinkedListFolder;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
