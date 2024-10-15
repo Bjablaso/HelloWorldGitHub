@@ -1,7 +1,26 @@
+import DataStrucutre.CustomLinkedList;
+
+import java.util.Iterator;
+
 public class Main {
     public static void main(String[] args) {
+            CustomLinkedList<Integer> list = new CustomLinkedList<>();
+            list.add(40);
+            list.add(20);
+            list.add(30);
+            list.add(40);
+            list.add(20);
+            list.add(30);
+            list.add(40);
+            list.add(20);
 
-        System.out.println("Hello world!");
-        System.out.println("New Hello world!");
+            Iterator<Integer> iterator = list.iterator();
+        System.out.printf("[\t");
+            while (iterator.hasNext()) {
+                System.out.print(iterator.next() +  "\t --> \t");
+
+            }
+        System.out.println("\t]");
+
     }
 }
