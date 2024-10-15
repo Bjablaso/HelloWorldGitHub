@@ -1,4 +1,4 @@
-package DataStrucutre.LinkedListFolder.LinkedListFolder;
+package DataStrucutre.LinkedListFolder;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;

@@ -1,5 +1,5 @@
 
-import DataStrucutre.LinkedListFolder.LinkedListFolder.CustomLinkedList;
+import DataStrucutre.LinkedListFolder.CustomLinkedList;
 
 import java.util.Iterator;
 
